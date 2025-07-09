@@ -319,10 +319,6 @@ ul, li {
   justify-content: space-between;
 }
 
-#skill .card:first-child {
-  flex-basis: 100%;
-}
-
 #skill .skill-icon {
   flex-basis: 75px;
 }
@@ -649,5 +645,16 @@ ul, li {
   #gnav li {
     font-size: 8px;
   }
+}
+/* 横幅100%用 */
+#skill .card.full-width {
+  flex-basis: 100%;
+  margin-bottom: 40px;
+}
+
+/* 横並びカード2つ用 */
+#skill .card.half-width {
+  flex-basis: calc(50% - 10px); /* 2列表示用の幅 */
+  margin-bottom: 30px;
 }
 

@@ -650,3 +650,13 @@ ul, li {
     font-size: 8px;
   }
 }
+.card-row {
+  display: flex;
+  gap: 20px; /* カード間の隙間 */
+  flex-wrap: wrap; /* スマホで折り返せるように */
+}
+
+.card-row .card {
+  flex: 1;
+  min-width: 300px; /* スマホ対応用の最小幅 */
+}

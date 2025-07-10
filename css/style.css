@@ -633,14 +633,13 @@ ul, li {
 
 #characteristic .skill-desc {
   flex-basis: calc(100% - 75px - 30px);
-  text-align: left;
+  text-align: center;
+  padding-left: 30px;
 }
 
 #characteristic .skill-desc-title {
-  margin-bottom: 3px;
-  font-size: 26px;
-  padding: 24px 0;
-  font-weight: bold;
+  text-align: center;
+  padding: 24px 0 12px;
 }
 
 /* スマホ表示用 */
@@ -664,5 +663,5 @@ ul, li {
 .skill-desc-title i {
   font-size: 2rem;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 12px;
 }

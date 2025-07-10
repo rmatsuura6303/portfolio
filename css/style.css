@@ -151,7 +151,7 @@ img {
   }
   .card {
     flex-basis: 100% !important;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 15px;
   }
   .skill-icon,

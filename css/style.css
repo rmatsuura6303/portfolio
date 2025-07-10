@@ -605,3 +605,55 @@ ul, li {
     flex-basis: 100% !important;
   }
 }
+#characteristic .card-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#characteristic .card {
+  flex-basis: 46%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#characteristic .skill-icon {
+  flex-basis: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+}
+
+#characteristic .skill-desc {
+  flex-basis: calc(100% - 75px - 30px);
+  text-align: left;
+}
+
+#characteristic .skill-desc-title {
+  margin-bottom: 3px;
+  font-size: 26px;
+  padding: 24px 0;
+  font-weight: bold;
+}
+
+/* スマホ表示用 */
+@media screen and (max-width: 767px) {
+  #characteristic .card {
+    flex-basis: 100% !important;
+  }
+  #characteristic .card {
+    flex-wrap: wrap;
+  }
+  #characteristic .skill-icon,
+  #characteristic .skill-desc {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 0 0 10px 0;
+  }
+}

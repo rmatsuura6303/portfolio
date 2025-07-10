@@ -658,3 +658,11 @@ ul, li {
     padding: 0 0 10px 0;
   }
 }
+
+#skill .skill-icon i,
+#characteristic .skill-icon i,
+.skill-desc-title i {
+  font-size: 2rem;
+  vertical-align: middle;
+  margin-right: 10px;
+}

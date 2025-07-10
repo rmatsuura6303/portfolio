@@ -180,3 +180,10 @@ img {
   .rate4:after { width: 60px; }
   .rate5:after { width: 75px; }
 }
+/* スキルと特性でアイコンの大きさを統一 */
+.skill-desc-title i,
+.skill-icon i {
+  font-size: 2rem;           /* スキルと同じサイズ */
+  vertical-align: middle;
+  margin-right: 10px;
+}

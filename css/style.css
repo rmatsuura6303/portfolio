@@ -565,4 +565,33 @@ ul, li {
   flex-basis: calc(50% - 10px); /* 2列表示用の幅 */
   margin-bottom: 30px;
 }
+/*--------------------------------
+ CHARACTERISTIC
+---------------------------------*/
+#characteristic .card-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+#characteristic .card {
+  flex-basis: calc(50% - 10px);
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#characteristic .skill-desc {
+  text-align: center;
+}
+
+#characteristic .skill-desc-title {
+  margin-bottom: 12px;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 24px 0 0;
+}

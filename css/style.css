@@ -664,4 +664,5 @@ ul, li {
   font-size: 2rem;
   vertical-align: middle;
   margin-right: 12px;
+  white-space: nowrap;
 }

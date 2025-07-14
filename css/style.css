@@ -666,3 +666,48 @@ ul, li {
   margin-right: 12px;
   white-space: nowrap;
 }
+.traits-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.traits-column {
+  flex: 1 1 30%;
+  background: #fefefe;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+}
+
+.traits-heading {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.card {
+  background: #f9f9ff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skill-desc-title i {
+  margin-right: 0.5em;
+}
+
+/* ✅ スマホ用レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  .traits-columns {
+    flex-direction: column;
+  }
+
+  .traits-column {
+    flex: 1 1 100%;
+  }
+}

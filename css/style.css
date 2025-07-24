@@ -737,3 +737,10 @@ ul, li {
   color: #0077cc;
   text-decoration: underline;
 }
+html {
+  scroll-behavior: smooth;
+}
+.card,
+.traits-column {
+  min-height: 260px;
+}

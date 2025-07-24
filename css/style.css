@@ -690,7 +690,7 @@ ul, li {
   background: #fefefe;
   border: 2px solid #ccc;
   border-radius: 12px;
-  padding: 1rem;
+  padding: 1.5rem;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
 }
 
@@ -705,8 +705,8 @@ ul, li {
 .card {
   background: #f9f9ff;
   border-radius: 10px;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .skill-desc-title i {
@@ -741,4 +741,8 @@ html {
 .card,
 .traits-column {
   min-height: 260px;
+}
+.traits-intro p,
+.section-content p {
+  margin-bottom: 1.5em;
 }

@@ -773,3 +773,8 @@ html {
   margin: 0 auto;
   padding: 0 20px;
 }
+/* カード全体を1カラム全幅で表示 */
+.traits-column.full-width {
+  width: 100%;
+  margin-bottom: 30px;
+}

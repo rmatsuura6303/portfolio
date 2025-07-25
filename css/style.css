@@ -747,3 +747,29 @@ html {
   margin-bottom: 1.5em;
 }
 
+/* 共通：全セクション余白初期化（後で個別に上書き） */
+.section {
+  margin-top: 100px;
+}
+
+/* スキルと障害特性の間だけ余白を縮める */
+#skill + #characteristic {
+  margin-top: 40px; /* 狭くする */
+}
+
+/* プロフィールとスキルの間を広めにとる */
+#Profile + #skill {
+  margin-top: 100px; /* 通常通り */
+}
+
+/* 最終セクション（contact）だけ広めに */
+#characteristic + #contact {
+  margin-top: 100px;
+}
+
+/* セクション中央揃えを維持（innerクラス） */
+.section .inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

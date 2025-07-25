@@ -746,3 +746,23 @@ html {
 .section-content p {
   margin-bottom: 1.5em;
 }
+
+/* セクション間の余白調整用 */
+
+.section {
+  padding: 100px 0; /* デフォルトは広め */
+}
+
+.section.related {
+  padding: 40px 0; /* 関連項目間は狭め */
+}
+
+/* 小画面（スマホ）対応 */
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 60px 0;
+  }
+  .section.related {
+    padding: 30px 0;
+  }
+}

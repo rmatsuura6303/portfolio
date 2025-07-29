@@ -670,7 +670,7 @@ ul, li {
   }
 }
 /*特性の概要欄のテキストを左寄せに*/
-#characteristic　.characteristic-text {
+#characteristic .characteristic-text {
   text-align: left;
 }
 

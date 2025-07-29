@@ -669,6 +669,10 @@ ul, li {
     padding: 0 0 10px 0;
   }
 }
+/*特性の概要欄のテキストを左寄せに*/
+#characteristic　.characteristic-text {
+  text-align: left;
+}
 
 #skill .skill-icon i,
 #characteristic .skill-icon i,
@@ -778,3 +782,5 @@ html {
   width: 100%;
   margin-bottom: 30px;
 }
+
+

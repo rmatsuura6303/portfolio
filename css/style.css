@@ -647,22 +647,23 @@ ul, li {
 #characteristic .skill-desc-title {
   display: flex;
   align-items: center;
-  justify-content: center; /* 中央に */
-  gap: 0.5em;              /* アイコンと文字の間隔 */
+  justify-content: flex-start;  /* ← 左寄せに変更 */
+  gap: 0.5em;
   padding: 24px 0 12px;
   font-size: 26px;
   font-weight: bold;
+  position: relative;
+}
+#characteristic .skill-desc-title .title-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #characteristic .skill-desc-title i {
   position: static;        /* 絶対位置を解除 */
   font-size: 1.8rem;
   margin: 0;               /* 不要な余白を除去 */
 }
-
-#characteristic .skill-desc-title .title-text {
-  display: inline-block;       /* タイトル文字を中央に表示 */
-}
-
 /* スマホ表示用 */
 @media screen and (max-width: 767px) {
   #characteristic .card {

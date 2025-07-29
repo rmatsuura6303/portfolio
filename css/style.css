@@ -652,6 +652,18 @@ ul, li {
 #characteristic .skill-desc-title {
   text-align: center;
   padding: 24px 0 12px;
+  position: relative;
+}
+#characteristic .skill-desc-title i {
+  position: absolute;          /* アイコンだけ左に固定 */
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+
+#characteristic .skill-desc-title .title-text {
+  display: inline-block;       /* タイトル文字を中央に表示 */
 }
 
 /* スマホ表示用 */

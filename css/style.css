@@ -801,4 +801,5 @@ html {
   align-items: center;           /* 縦方向も揃える */
   text-align: center;
   gap: 0.4em;                    /* アイコンとテキストの間隔を調整 */
+  font-size: 1.2em;  /* 過集中に合わせる */
 }

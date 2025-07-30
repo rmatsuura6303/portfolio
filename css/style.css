@@ -795,4 +795,10 @@ html {
   margin-bottom: 30px;
 }
 
-
+.text-only-center {
+  display: flex;
+  justify-content: center;       /* 全体を中央に */
+  align-items: center;           /* 縦方向も揃える */
+  text-align: center;
+  gap: 0.4em;                    /* アイコンとテキストの間隔を調整 */
+}
